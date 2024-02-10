@@ -47,6 +47,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reis.cs" />
+    <Compile Include="Trein.cs" />
+    <Compile Include="Vliegtuig.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

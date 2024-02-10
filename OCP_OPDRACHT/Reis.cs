@@ -1,6 +1,4 @@
 ﻿
-// Definieer soortgelijke klassen voor Trein en Vliegtuig
-
 public class Reis
 {
     private Bus _bus;
@@ -12,7 +10,7 @@ public class Reis
 
     public string StartReis()
     {
-        _bus.StuurEmail("voorbeeld@example.com");
-        return _bus.ReisUitvoeren();
+        _bus.StuurEmail("klant@voorbeeld.com");
+        return $"Start reis met {_bus.ReisUitvoeren()}. Prijs: {_bus.Prijs} Euro.";
     }
 }

@@ -4,6 +4,9 @@ namespace OCP_OPLOSSING
 {
     public class Bus : ITransportmiddel
     {
+        public decimal Prijs => 20.00m;
+        public string EmailAdres { get; set; } = "bus@voorbeeld.com";
+
         public string ReisUitvoeren()
         {
             return "Reizen met de bus";
@@ -11,7 +14,7 @@ namespace OCP_OPLOSSING
 
         public void StuurEmail(string adres)
         {
-            Console.WriteLine($"E-mail verzonden naar {adres} over reizen met de bus.");
+            Console.WriteLine($"E-mail voor busreis verzonden naar {EmailAdres}: 'Uw reis met de bus is geboekt!'");
         }
     }
 }

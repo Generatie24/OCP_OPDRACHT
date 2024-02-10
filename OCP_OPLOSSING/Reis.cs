@@ -11,8 +11,8 @@
 
         public string StartReis()
         {
-            _transportmiddel.StuurEmail("Reizen@Company.com");
-            return _transportmiddel.ReisUitvoeren();
+            _transportmiddel.StuurEmail("klant@voorbeeld.com");
+            return $"Start reis met {_transportmiddel.ReisUitvoeren()}. Prijs: {_transportmiddel.Prijs} Euro.";
         }
     }
 }
