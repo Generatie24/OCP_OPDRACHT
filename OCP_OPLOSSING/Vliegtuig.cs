@@ -14,7 +14,7 @@ namespace OCP_OPLOSSING
 
         public void StuurEmail(string adres)
         {
-            Console.WriteLine($"E-mail voor reis met de vliegtuig verzonden naar {EmailAdres}: 'Uw reis met de vliegtuig is geboekt!'");
+            Console.WriteLine($"E-mail voor reis met de vliegtuig verzonden naar {EmailAdres}: 'reis met de vliegtuig is geboekt!'");
         }
     }
 }
